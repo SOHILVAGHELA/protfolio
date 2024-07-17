@@ -7,8 +7,8 @@ function Home() {
     <>
       <div className=" home-container">
         <div className="container home-content">
-          <h1>Hi I am </h1>
-          <h2>
+          <h2>Hi 👋I'm a</h2>
+          <h1>
             <Typewriter
               options={{
                 strings: ["FullStack Developer!", "Mern Stack Developer!"],
@@ -16,7 +16,7 @@ function Home() {
                 loop: true,
               }}
             />
-          </h2>
+          </h1>
           <div className="home-buttons">
             <button className="btn btn-hire">Hire me</button>
             <a className="btn btn-cv" href={Resume} download="sohil.pdf">
