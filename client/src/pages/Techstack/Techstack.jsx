@@ -5,7 +5,7 @@ import { Techstacklist } from "../../utils/Techstacklist";
 function Techstack() {
   return (
     <>
-      <div className=" techstack">
+      <div className=" techstack" id="techstack">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Technologies Stack
         </h2>
