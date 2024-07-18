@@ -1,6 +1,7 @@
 import React from "react";
 import "./Techstack.css";
 import { Techstacklist } from "../../utils/Techstacklist";
+
 function Techstack() {
   return (
     <>
