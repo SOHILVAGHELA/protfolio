@@ -39,7 +39,10 @@ function Project() {
               <div className="card-body text-center">
                 <h5 className="text-uppercase ">E-commerce Store</h5>
                 {/* <div className="ad-btn"></div> */}
-                <a className="add-btn " href="#">
+                <a
+                  className="add-btn "
+                  href="https://e-store-5259.onrender.com"
+                >
                   View
                 </a>
               </div>
