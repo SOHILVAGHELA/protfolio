@@ -31,25 +31,20 @@ function Menu({ toggle }) {
                 About
               </div>
               <div className="nav-link">
-                <FcBusinessman />
-                Work Experince
+                <FcReading />
+                Education
               </div>
+
               <div className="nav-link">
                 <FcBiotech />
                 Tech Stack
               </div>
-              <div className="nav-link">
-                <FcReading />
-                Education
-              </div>
+
               <div className="nav-link">
                 <FcVideoProjector />
                 Project
               </div>
-              <div className="nav-link">
-                <LiaUser />
-                Testimonial
-              </div>
+
               <div className="nav-link">
                 <FcBusinessContact />
                 Contact
@@ -67,20 +62,17 @@ function Menu({ toggle }) {
               <FcAbout title="About" />
             </div>
             <div className="nav-link">
-              <FcBusinessman title="Work Experince" />
+              <FcReading title="Education" />
             </div>
+
             <div className="nav-link">
               <FcBiotech title="Tech Stack" />
             </div>
-            <div className="nav-link">
-              <FcReading title="Education" />
-            </div>
+
             <div className="nav-link">
               <FcVideoProjector title="Project" />
             </div>
-            <div className="nav-link">
-              <LiaUser title="Testimonial" />
-            </div>
+
             <div className="nav-link">
               <FcBusinessContact title="Contact" />
             </div>

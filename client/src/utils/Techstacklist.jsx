@@ -68,7 +68,7 @@ export const Techstacklist = [
 
   {
     _id: 11,
-    name: "Git / Github ",
+    name: "Git/Github ",
     icon: SiGithub,
   },
 ];
