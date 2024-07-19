@@ -96,3 +96,9 @@ button:focus {
     justify-content: center;
   }
 }
+
+/* =======dark mode======= */
+#dark .contact {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}

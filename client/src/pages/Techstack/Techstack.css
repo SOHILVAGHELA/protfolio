@@ -23,3 +23,17 @@
   background-color: #138781;
   color: white;
 }
+
+/* =======dark mode======= */
+#dark .techstack {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+#dark .techstack h2 {
+  color: #fefefe;
+}
+#dark .techstack hr {
+  color: #b0a4a4;
+  width: 400px;
+  margin: 10px auto;
+}

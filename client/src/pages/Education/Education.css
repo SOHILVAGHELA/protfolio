@@ -19,3 +19,17 @@
 .education .vertical-timeline-element-subtitle {
   color: gray;
 }
+
+/* =======dark mode======= */
+#dark .education {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+#dark .education h2 {
+  color: #fefefe;
+}
+#dark .education hr {
+  color: #b0a4a4;
+  width: 400px;
+  margin: 10px auto;
+}

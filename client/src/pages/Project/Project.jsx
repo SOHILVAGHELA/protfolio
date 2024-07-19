@@ -3,7 +3,7 @@ import "./Project.css";
 function Project() {
   return (
     <>
-      <div className=" project" id="projects">
+      <div className=" project py-3" id="projects">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Top Recent Project
         </h2>

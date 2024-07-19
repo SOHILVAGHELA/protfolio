@@ -1,5 +1,6 @@
 import "./App.css";
 import Layout from "./components/Layout/Layout.jsx";
+import { useTheme } from "./Contex/ThemeContex.jsx";
 import About from "./pages/About/About.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Education from "./pages/Education/Education.jsx";
@@ -8,18 +9,22 @@ import Techstack from "./pages/Techstack/Techstack.jsx";
 import ScrollToTop from "react-scroll-to-top";
 
 function App() {
+  const [theme, setTheme] = useTheme();
   return (
     <>
-      <Layout></Layout>
-      <div className="container">
-        <About></About>
-        <Education></Education>
-        <Techstack></Techstack>
-        <Project></Project>
-        <Contact></Contact>
+      <div id={theme}>
+        <Layout></Layout>
+        <div className="container">
+          <About></About>
+          <Education></Education>
+          <Techstack></Techstack>
+          <Project></Project>
+          <Contact></Contact>
+        </div>
+        <div className="footer pb-3">
+          <h4 className="text-center">Sohilvaghela © 2024</h4>
+        </div>
       </div>
-      <div className="footer mb-3"></div>
-      <h4 className="text-center">Sohilvaghela © 2024</h4>
       <ScrollToTop smooth />
     </>
   );

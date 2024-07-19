@@ -5,7 +5,7 @@ import { Techstacklist } from "../../utils/Techstacklist";
 function Techstack() {
   return (
     <>
-      <div className=" techstack" id="techstack">
+      <div className=" techstack pb-3" id="techstack">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Technologies Stack
         </h2>
@@ -15,7 +15,7 @@ function Techstack() {
           and back-end tools, and APIs.
         </p>
 
-        <div className="row techstack">
+        <div className="row ">
           {Techstacklist.map((tech) => (
             <div key={tech._id} className="col-md-3">
               <div className="card m-2">

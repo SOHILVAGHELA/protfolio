@@ -67,3 +67,17 @@
   background: transparent;
   border: 2px solid #138781;
 }
+
+/* =======dark mode======= */
+#dark .project {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+#dark .project h2 {
+  color: #fefefe;
+}
+#dark .project hr {
+  color: #b0a4a4;
+  width: 400px;
+  margin: 10px auto;
+}

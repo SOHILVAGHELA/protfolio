@@ -6,7 +6,7 @@ import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 const Contact = () => {
   return (
     <>
-      <div className=" contact" id="contact">
+      <div className=" contact p-5" id="contact">
         <div className="card card0 border-0">
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
@@ -34,7 +34,7 @@ const Contact = () => {
 
                   <div className="row px-3 mb-4">
                     <div className="line" />
-                    <small className="or text-center">OR</small>
+                    <small className="text-center">OR</small>
                     <div className="line" />
                   </div>
                   <div className="row px-3">

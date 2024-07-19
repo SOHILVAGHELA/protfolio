@@ -1,5 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Dark mode */
+#dark {
+  background-color: #5f264a;
+  color: #f4eee0;
 }
