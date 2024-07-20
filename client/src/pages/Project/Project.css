@@ -1,5 +1,5 @@
 .project {
-  margin-left: 150px !important;
+  padding-left: 150px;
   margin: 50px 0px;
 }
 .project hr {
@@ -80,4 +80,19 @@
   color: #b0a4a4;
   width: 400px;
   margin: 10px auto;
+}
+
+/* ============= responsive design=============== */
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .project h2 {
+    padding: 10px;
+  }
+  .project .card {
+    margin: 30px;
+  }
 }

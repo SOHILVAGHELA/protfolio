@@ -24,7 +24,7 @@ function App() {
           <Contact></Contact>
         </div>
         <div className="footer pb-3">
-          <h4 className="text-center">Sohilvaghela © 2024</h4>
+          <h4 className="text-center"> Made By SohilVaghela © 2024</h4>
         </div>
       </div>
       <ScrollToTop smooth />

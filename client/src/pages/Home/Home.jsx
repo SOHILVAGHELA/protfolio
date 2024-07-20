@@ -41,7 +41,14 @@ function Home() {
           </div>
           <div data-aos="fade-up" data-aos-delay="500">
             <div className="home-buttons">
-              <button className="btn btn-hire">Hire me</button>
+              <a
+                className="btn btn-hire"
+                href="https://api.whatsapp.com/send?phone=9978619720"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Hire Me
+              </a>
               <a className="btn btn-cv" href={Resume} download="sohil.pdf">
                 My Resume
               </a>

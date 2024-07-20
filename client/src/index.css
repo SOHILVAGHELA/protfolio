@@ -9,3 +9,13 @@
   background-color: #5f264a;
   color: #f4eee0;
 }
+
+.footer {
+  background-color: rgb(20, 20, 20);
+}
+.footer h4 {
+  color: white;
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: medium;
+}
