@@ -19,7 +19,7 @@ function Techstack() {
           👉 Including programming languages, frameworks, databases, front-end
           and back-end tools, and APIs.
         </p>
-        <div data-aos="fade-right" data-aos-delay="400">
+        <div data-aos="fade-right" data-aos-delay="100">
           <div className="row ">
             {Techstacklist.map((tech) => (
               <div key={tech._id} className="col-md-3">
