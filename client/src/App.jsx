@@ -1,5 +1,6 @@
 import "./App.css";
 import Layout from "./components/Layout/Layout.jsx";
+import MobileNav from "./components/MobileNav/MobileNav.jsx";
 import { useTheme } from "./Contex/ThemeContex.jsx";
 import About from "./pages/About/About.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <div id={theme}>
+        <MobileNav></MobileNav>
         <Layout></Layout>
         <div className="container px-4 mx-auto">
           <About></About>
