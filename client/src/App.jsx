@@ -14,7 +14,7 @@ function App() {
     <>
       <div id={theme}>
         <Layout></Layout>
-        <div className="container">
+        <div className="container px-4 mx-auto">
           <About></About>
           <Education></Education>
           <Techstack></Techstack>

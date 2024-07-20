@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/Resume.pdf";
 import { useTheme } from "../../Contex/ThemeContex";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "./Home.css";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { BiSolidSun } from "react-icons/bi";
 function Home() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   const [theme, setTheme] = useTheme();
   const handleTheme = () => {
     setTheme((preState) => (preState === "light" ? "dark" : "light"));
@@ -22,21 +27,25 @@ function Home() {
           )}
         </div>
         <div className="container home-content">
-          <h2>Hi 👋I'm a</h2>
-          <h1>
-            <Typewriter
-              options={{
-                strings: ["FullStack Developer!", "Mern Stack Developer!"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
-          <div className="home-buttons">
-            <button className="btn btn-hire">Hire me</button>
-            <a className="btn btn-cv" href={Resume} download="sohil.pdf">
-              My Resume
-            </a>
+          <div data-aos="fade-left" data-aos-easing="ease-in-sine">
+            <h2>Hi 👋I'm a</h2>
+            <h1>
+              <Typewriter
+                options={{
+                  strings: ["FullStack Developer!", "Mern Stack Developer!"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="500">
+            <div className="home-buttons">
+              <button className="btn btn-hire">Hire me</button>
+              <a className="btn btn-cv" href={Resume} download="sohil.pdf">
+                My Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

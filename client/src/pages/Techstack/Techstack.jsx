@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Techstack.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Techstacklist } from "../../utils/Techstacklist";
 
 function Techstack() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <>
       <div className=" techstack pb-3" id="techstack">
@@ -14,26 +19,27 @@ function Techstack() {
           👉 Including programming languages, frameworks, databases, front-end
           and back-end tools, and APIs.
         </p>
-
-        <div className="row ">
-          {Techstacklist.map((tech) => (
-            <div key={tech._id} className="col-md-3">
-              <div className="card m-2">
-                <div className="card-content">
-                  <div className="card-body">
-                    <div className="media d-flex justify-content-center">
-                      <div className="aling-self-center">
-                        <tech.icon className="tech-icon" />
-                      </div>
-                      <div className="media-body">
-                        <h5>{tech.name}</h5>
+        <div data-aos="fade-right" data-aos-delay="400">
+          <div className="row ">
+            {Techstacklist.map((tech) => (
+              <div key={tech._id} className="col-md-3">
+                <div className="card m-2">
+                  <div className="card-content">
+                    <div className="card-body">
+                      <div className="media d-flex justify-content-center">
+                        <div className="aling-self-center">
+                          <tech.icon className="tech-icon" />
+                        </div>
+                        <div className="media-body">
+                          <h5>{tech.name}</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </>
