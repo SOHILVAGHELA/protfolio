@@ -90,19 +90,6 @@ const Menus = ({ toggle }) => {
                     Project
                   </Link>
                 </div>
-
-                <div className="nav-link">
-                  <Link
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={100}
-                  >
-                    <FcBusinessContact />
-                    Contact
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
@@ -166,18 +153,6 @@ const Menus = ({ toggle }) => {
                   duration={100}
                 >
                   <FcVideoProjector />
-                </Link>
-              </div>
-
-              <div className="nav-link">
-                <Link
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={100}
-                >
-                  <FcBusinessContact />
                 </Link>
               </div>
             </div>
