@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.pdf";
+import Resume from "../../assets/docs/Resume1.pdf";
 import { useTheme } from "../../Contex/ThemeContex";
 import AOS from "aos";
 import "aos/dist/aos.css";
