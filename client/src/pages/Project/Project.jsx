@@ -42,6 +42,7 @@ function Project() {
                 <a
                   className="add-btn "
                   href="https://e-store-5259.onrender.com"
+                  target="_blank"
                 >
                   View
                 </a>
@@ -61,9 +62,13 @@ function Project() {
                 <span className="card-detail-badge">MongoDB</span>
               </div>
               <div className="card-body text-center">
-                <h5 className="text-uppercase ">Twitter </h5>
+                <h5 className="text-uppercase ">URL-SHORTNER </h5>
                 {/* <div className="ad-btn"></div> */}
-                <a className="add-btn " href="#">
+                <a
+                  className="add-btn "
+                  href="https://url-live-1.onrender.com"
+                  target="_blank"
+                >
                   View
                 </a>
               </div>
