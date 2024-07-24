@@ -51,11 +51,8 @@ function Project() {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Twitter App</span>
-                <img
-                  src="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-09/ecommerce.png"
-                  alt="project1"
-                />
+                <span className="card-notify-badge">URL-SHORTNER</span>
+                <img src="/images/ulr.png" alt="project1" />
               </div>
               <div className="card-image-overly mt-3 m-1">
                 <span className="card-detail-badge">Node</span>
