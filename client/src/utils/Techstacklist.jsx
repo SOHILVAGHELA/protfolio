@@ -39,11 +39,6 @@ export const Techstacklist = [
   },
 
   {
-    _id: 6,
-    name: "React MUI",
-    icon: SiMui,
-  },
-  {
     _id: 7,
     name: "Tailwind ",
     icon: SiTailwindcss,
