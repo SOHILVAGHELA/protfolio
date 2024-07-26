@@ -77,11 +77,8 @@ function Project() {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Restaurant</span>
-                <img
-                  src="https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-09/ecommerce.png"
-                  alt="project1"
-                />
+                <span className="card-notify-badge">Todo-app</span>
+                <img src="/images/todo.png" alt="project1" />
               </div>
               <div className="card-image-overly mt-3 m-1">
                 <span className="card-detail-badge">Node</span>
@@ -90,9 +87,13 @@ function Project() {
                 <span className="card-detail-badge">MongoDB</span>
               </div>
               <div className="card-body text-center">
-                <h5 className="text-uppercase ">Restaurant</h5>
+                <h5 className="text-uppercase ">todo app</h5>
                 {/* <div className="ad-btn"></div> */}
-                <a className="add-btn " href="#">
+                <a
+                  className="add-btn "
+                  href="https://todo-ru48.onrender.com"
+                  target="_blank"
+                >
                   View
                 </a>
               </div>
