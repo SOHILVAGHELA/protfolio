@@ -99,6 +99,32 @@ function Project() {
               </div>
             </div>
           </div>
+          <div className="col-md-4">
+            <div className="card rounded mt-5">
+              <div className="card-image">
+                <span className="card-notify-badge">Todo-app</span>
+                <img src="/images/todo2.png" alt="project1" />
+              </div>
+              <div className="card-image-overly mt-3 m-1">
+                <p>
+                  This To-Do app utilizes Context API for centralized state
+                  management.
+                </p>
+                <span className="card-detail-badge">Reactjs</span>
+              </div>
+              <div className="card-body text-center">
+                <h5 className="text-uppercase ">todo app</h5>
+                {/* <div className="ad-btn"></div> */}
+                <a
+                  className="add-btn "
+                  href="https://todo-woad-nu.vercel.app/"
+                  target="_blank"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
