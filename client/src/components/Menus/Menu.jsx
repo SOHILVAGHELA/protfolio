@@ -22,7 +22,7 @@ const Menus = ({ toggle }) => {
         <>
           <div data-aos="zoom-in " data-aos-delay="200">
             <div className="navbar-profile-pic">
-              <img src="/images/me.jpg" alt="profile pic" />
+              <img src="/images/sohil.jpeg" alt="profile pic" />
             </div>
           </div>
           <div data-aos="fade-right" data-aos-delay="300">

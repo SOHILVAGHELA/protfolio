@@ -113,20 +113,6 @@ function MobileNav() {
                     Project
                   </Link>
                 </div>
-
-                <div className="nav-link">
-                  <Link
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={100}
-                    onClick={handleMenuClick}
-                  >
-                    <FcBusinessContact />
-                    Contact
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

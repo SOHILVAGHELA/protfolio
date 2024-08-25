@@ -106,10 +106,6 @@ function Project() {
                 <img src="/images/todo2.png" alt="project1" />
               </div>
               <div className="card-image-overly mt-3 m-1">
-                <p>
-                  This To-Do app utilizes Context API for centralized state
-                  management.
-                </p>
                 <span className="card-detail-badge">Reactjs</span>
               </div>
               <div className="card-body text-center">
@@ -118,6 +114,28 @@ function Project() {
                 <a
                   className="add-btn "
                   href="https://todo-woad-nu.vercel.app/"
+                  target="_blank"
+                >
+                  View
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="card rounded mt-5">
+              <div className="card-image">
+                <span className="card-notify-badge">Cureency-convertor</span>
+                <img src="/images/currency.png" alt="project1" />
+              </div>
+              <div className="card-image-overly mt-3 m-1">
+                <span className="card-detail-badge">Reactjs</span>
+              </div>
+              <div className="card-body text-center">
+                <h5 className="text-uppercase ">Currency-App</h5>
+                {/* <div className="ad-btn"></div> */}
+                <a
+                  className="add-btn "
+                  href="https://currency-convertor-bn75rdjrs-vaghela-sohils-projects.vercel.app/"
                   target="_blank"
                 >
                   View
