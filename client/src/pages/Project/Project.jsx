@@ -135,7 +135,7 @@ function Project() {
                 {/* <div className="ad-btn"></div> */}
                 <a
                   className="add-btn "
-                  href="https://currency-convertor-bn75rdjrs-vaghela-sohils-projects.vercel.app/"
+                  href="https://currency-convertor-eta-ashy.vercel.app/"
                   target="_blank"
                 >
                   View
